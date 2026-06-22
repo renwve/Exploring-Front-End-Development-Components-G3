@@ -14,7 +14,7 @@ of the input form.
 "use client";
 
 import { useState } from "react";
-import studentsData from "../data/students.json";
+import studentsData from "../../data/students.json";
 import StudentForm from "@/components/studentform";
 import StudentList from "@/components/studentlist";
 
