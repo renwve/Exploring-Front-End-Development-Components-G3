@@ -1,3 +1,16 @@
+/*
+
+Author/s: Ren Macatuno, Jinglan Liang, Kawalpreet Singh
+Date: June 22, 2026
+Program Description: User enters a student dashboard for entering new students
+into New Generation High School. User enters new student information in input
+boxes to add new student to student list. If all slots are not filled in, an error
+message will be recieved and the student will not be added to the student list.
+If all slots have been filled, the student will be added to the student list ontop
+of the input form.
+
+*/
+
 "use client";
 
 import { useState } from "react";
