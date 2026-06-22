@@ -2,12 +2,9 @@
   "name": "assignment_exploring_front-end_development_components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://renwve.github.io/Exploring-Front-End-Development-Components",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build-script",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "build": "next build",
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write"
