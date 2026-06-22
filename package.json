@@ -2,9 +2,12 @@
   "name": "assignment_exploring_front-end_development_components",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://renwve.github.io/Exploring-Front-End-Development-Components",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build-script",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write"
@@ -21,6 +24,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
